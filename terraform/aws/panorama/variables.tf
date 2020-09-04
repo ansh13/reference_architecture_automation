@@ -35,5 +35,5 @@ variable onprem_IPaddress {
 variable ra_key {
   description = "Public key for SSH"
   type = string
-  default = ""
+  default = "pano-key-pair"
 }
